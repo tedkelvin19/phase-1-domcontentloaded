@@ -1,0 +1,932 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @babel/core
+20 silly mapToRegistry name @babel/core
+21 silly mapToRegistry scope (from package name) @babel
+22 verbose mapToRegistry no registry URL found in name for scope @babel
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: '@babel/core',
+25 silly mapToRegistry   scope: '@babel',
+25 silly mapToRegistry   name: '@babel/core',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcore
+27 silly fetchNamedPackageData @babel/preset-env
+28 silly mapToRegistry name @babel/preset-env
+29 silly mapToRegistry scope (from package name) @babel
+30 verbose mapToRegistry no registry URL found in name for scope @babel
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: '@babel/preset-env',
+33 silly mapToRegistry   scope: '@babel',
+33 silly mapToRegistry   name: '@babel/preset-env',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fpreset-env
+35 silly fetchNamedPackageData chai
+36 silly mapToRegistry name chai
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry data Result {
+39 silly mapToRegistry   raw: 'chai',
+39 silly mapToRegistry   scope: null,
+39 silly mapToRegistry   name: 'chai',
+39 silly mapToRegistry   rawSpec: '',
+39 silly mapToRegistry   spec: 'latest',
+39 silly mapToRegistry   type: 'tag' }
+40 silly mapToRegistry uri https://registry.npmjs.org/chai
+41 silly fetchNamedPackageData jsdom
+42 silly mapToRegistry name jsdom
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'jsdom',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   name: 'jsdom',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/jsdom
+47 silly fetchNamedPackageData mocha
+48 silly mapToRegistry name mocha
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry data Result {
+51 silly mapToRegistry   raw: 'mocha',
+51 silly mapToRegistry   scope: null,
+51 silly mapToRegistry   name: 'mocha',
+51 silly mapToRegistry   rawSpec: '',
+51 silly mapToRegistry   spec: 'latest',
+51 silly mapToRegistry   type: 'tag' }
+52 silly mapToRegistry uri https://registry.npmjs.org/mocha
+53 silly fetchNamedPackageData mocha-jsdom
+54 silly mapToRegistry name mocha-jsdom
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'mocha-jsdom',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'mocha-jsdom',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/mocha-jsdom
+59 silly fetchNamedPackageData mocha-multi
+60 silly mapToRegistry name mocha-multi
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'mocha-multi',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   name: 'mocha-multi',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/mocha-multi
+65 verbose request uri https://registry.npmjs.org/@babel%2fcore
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 10:56:39
+68 verbose request id c70b8eb54c5c8a56
+69 http request GET https://registry.npmjs.org/@babel%2fcore
+70 verbose request uri https://registry.npmjs.org/@babel%2fpreset-env
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 10:56:39
+73 http request GET https://registry.npmjs.org/@babel%2fpreset-env
+74 verbose request uri https://registry.npmjs.org/chai
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 10:56:39
+77 http request GET https://registry.npmjs.org/chai
+78 verbose request uri https://registry.npmjs.org/jsdom
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 10:56:39
+81 http request GET https://registry.npmjs.org/jsdom
+82 verbose request uri https://registry.npmjs.org/mocha
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 10:56:39
+85 http request GET https://registry.npmjs.org/mocha
+86 verbose request uri https://registry.npmjs.org/mocha-jsdom
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 10:56:39
+89 http request GET https://registry.npmjs.org/mocha-jsdom
+90 verbose request uri https://registry.npmjs.org/mocha-multi
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 10:56:39
+93 http request GET https://registry.npmjs.org/mocha-multi
+94 http 200 https://registry.npmjs.org/chai
+95 verbose headers { date: 'Thu, 28 Sep 2023 07:56:40 GMT',
+95 verbose headers   'content-type': 'application/json',
+95 verbose headers   'transfer-encoding': 'chunked',
+95 verbose headers   connection: 'keep-alive',
+95 verbose headers   'cf-ray': '80da6e6028e7119e-CDG',
+95 verbose headers   'cf-cache-status': 'HIT',
+95 verbose headers   'access-control-allow-origin': '*',
+95 verbose headers   age: '24',
+95 verbose headers   'cache-control': 'public, max-age=300',
+95 verbose headers   etag: 'W/"f6ea1b4530cbfaf6ce6787b8c8a58869"',
+95 verbose headers   'last-modified': 'Wed, 27 Sep 2023 09:26:05 GMT',
+95 verbose headers   vary: 'accept-encoding, accept',
+95 verbose headers   server: 'cloudflare',
+95 verbose headers   'content-encoding': 'gzip' }
+96 silly get cb [ 200,
+96 silly get   { date: 'Thu, 28 Sep 2023 07:56:40 GMT',
+96 silly get     'content-type': 'application/json',
+96 silly get     'transfer-encoding': 'chunked',
+96 silly get     connection: 'keep-alive',
+96 silly get     'cf-ray': '80da6e6028e7119e-CDG',
+96 silly get     'cf-cache-status': 'HIT',
+96 silly get     'access-control-allow-origin': '*',
+96 silly get     age: '24',
+96 silly get     'cache-control': 'public, max-age=300',
+96 silly get     etag: 'W/"f6ea1b4530cbfaf6ce6787b8c8a58869"',
+96 silly get     'last-modified': 'Wed, 27 Sep 2023 09:26:05 GMT',
+96 silly get     vary: 'accept-encoding, accept',
+96 silly get     server: 'cloudflare',
+96 silly get     'content-encoding': 'gzip' } ]
+97 verbose get saving chai to /home/kelvin/.npm/registry.npmjs.org/chai/.cache.json
+98 verbose makeDirectory /home/kelvin/.npm creation not in flight; initializing
+99 silly makeDirectory /home/kelvin/.npm uid: 1000 gid: 1000
+100 silly resolveWithNewModule chai@4.3.9 checking installable status
+101 silly cache add args [ 'chai@^4.2.0', null ]
+102 verbose cache add spec chai@^4.2.0
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'chai@^4.2.0',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'chai',
+103 silly cache add   rawSpec: '^4.2.0',
+103 silly cache add   spec: '>=4.2.0 <5.0.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed chai@>=4.2.0 <5.0.0
+105 verbose addNamed ">=4.2.0 <5.0.0" is a valid semver range for chai
+106 silly addNameRange { name: 'chai', range: '>=4.2.0 <5.0.0', hasData: false }
+107 silly mapToRegistry name chai
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry data Result {
+110 silly mapToRegistry   raw: 'chai',
+110 silly mapToRegistry   scope: null,
+110 silly mapToRegistry   name: 'chai',
+110 silly mapToRegistry   rawSpec: '',
+110 silly mapToRegistry   spec: 'latest',
+110 silly mapToRegistry   type: 'tag' }
+111 silly mapToRegistry uri https://registry.npmjs.org/chai
+112 verbose addNameRange registry:https://registry.npmjs.org/chai not in flight; fetching
+113 verbose get https://registry.npmjs.org/chai not expired, no request
+114 silly addNameRange number 2 { name: 'chai', range: '>=4.2.0 <5.0.0', hasData: true }
+115 silly addNameRange versions [ 'chai',
+115 silly addNameRange   [ '0.0.1',
+115 silly addNameRange     '0.0.2',
+115 silly addNameRange     '0.1.0',
+115 silly addNameRange     '0.1.1',
+115 silly addNameRange     '0.1.2',
+115 silly addNameRange     '0.1.3',
+115 silly addNameRange     '0.1.4',
+115 silly addNameRange     '0.1.5',
+115 silly addNameRange     '0.1.6',
+115 silly addNameRange     '0.1.7',
+115 silly addNameRange     '0.2.0',
+115 silly addNameRange     '0.2.1',
+115 silly addNameRange     '0.2.2',
+115 silly addNameRange     '0.2.3',
+115 silly addNameRange     '0.2.4',
+115 silly addNameRange     '0.3.0',
+115 silly addNameRange     '0.3.1',
+115 silly addNameRange     '0.3.2',
+115 silly addNameRange     '0.3.3',
+115 silly addNameRange     '0.3.4',
+115 silly addNameRange     '0.4.0',
+115 silly addNameRange     '0.4.1',
+115 silly addNameRange     '0.4.2',
+115 silly addNameRange     '0.5.0',
+115 silly addNameRange     '0.5.1',
+115 silly addNameRange     '0.5.2',
+115 silly addNameRange     '0.5.3',
+115 silly addNameRange     '1.0.0',
+115 silly addNameRange     '1.0.1',
+115 silly addNameRange     '1.0.2',
+115 silly addNameRange     '1.0.3',
+115 silly addNameRange     '1.0.4',
+115 silly addNameRange     '1.1.0',
+115 silly addNameRange     '1.1.1',
+115 silly addNameRange     '1.2.0',
+115 silly addNameRange     '1.3.0',
+115 silly addNameRange     '1.4.0',
+115 silly addNameRange     '1.4.1',
+115 silly addNameRange     '1.4.2',
+115 silly addNameRange     '1.5.0',
+115 silly addNameRange     '1.6.0',
+115 silly addNameRange     '1.6.1',
+115 silly addNameRange     '1.7.0',
+115 silly addNameRange     '1.7.1',
+115 silly addNameRange     '1.7.2',
+115 silly addNameRange     '1.8.0',
+115 silly addNameRange     '1.8.1',
+115 silly addNameRange     '1.9.0',
+115 silly addNameRange     '1.9.1',
+115 silly addNameRange     '1.9.2',
+115 silly addNameRange     '1.10.0',
+115 silly addNameRange     '2.0.0',
+115 silly addNameRange     '2.1.0',
+115 silly addNameRange     '2.1.1',
+115 silly addNameRange     '2.1.2',
+115 silly addNameRange     '2.2.0',
+115 silly addNameRange     '2.3.0',
+115 silly addNameRange     '3.0.0',
+115 silly addNameRange     '3.1.0',
+115 silly addNameRange     '3.2.0',
+115 silly addNameRange     '3.3.0',
+115 silly addNameRange     '3.4.0',
+115 silly addNameRange     '3.4.1',
+115 silly addNameRange     '3.5.0',
+115 silly addNameRange     '4.0.0-canary.1',
+115 silly addNameRange     '4.0.0-canary.2',
+115 silly addNameRange     '4.0.0',
+115 silly addNameRange     '4.0.1',
+115 silly addNameRange     '4.0.2',
+115 silly addNameRange     '4.1.0',
+115 silly addNameRange     '4.1.1',
+115 silly addNameRange     '4.1.2',
+115 silly addNameRange     '4.2.0',
+115 silly addNameRange     '4.3.0',
+115 silly addNameRange     '4.3.1',
+115 silly addNameRange     '4.3.2',
+115 silly addNameRange     '4.3.3',
+115 silly addNameRange     '4.3.4',
+115 silly addNameRange     '4.3.5',
+115 silly addNameRange     '4.3.6',
+115 silly addNameRange     '4.3.7',
+115 silly addNameRange     '5.0.0-alpha.0',
+115 silly addNameRange     '5.0.0-alpha.1',
+115 silly addNameRange     '4.3.8',
+115 silly addNameRange     '4.3.9' ] ]
+116 silly addNamed chai@4.3.9
+117 verbose addNamed "4.3.9" is a plain semver version for chai
+118 silly mapToRegistry name chai
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry data Result {
+121 silly mapToRegistry   raw: 'chai',
+121 silly mapToRegistry   scope: null,
+121 silly mapToRegistry   name: 'chai',
+121 silly mapToRegistry   rawSpec: '',
+121 silly mapToRegistry   spec: 'latest',
+121 silly mapToRegistry   type: 'tag' }
+122 silly mapToRegistry uri https://registry.npmjs.org/chai
+123 verbose addRemoteTarball https://registry.npmjs.org/chai/-/chai-4.3.9.tgz not in flight; adding
+124 verbose addRemoteTarball [ 'https://registry.npmjs.org/chai/-/chai-4.3.9.tgz',
+124 verbose addRemoteTarball   'c934ab542b11cc933a963617f0f890274c66c042' ]
+125 info retry fetch attempt 1 at 10:56:40
+126 info attempt registry request try #1 at 10:56:40
+127 http fetch GET https://registry.npmjs.org/chai/-/chai-4.3.9.tgz
+128 http fetch 200 https://registry.npmjs.org/chai/-/chai-4.3.9.tgz
+129 http 200 https://registry.npmjs.org/mocha-jsdom
+130 verbose headers { date: 'Thu, 28 Sep 2023 07:56:40 GMT',
+130 verbose headers   'content-type': 'application/json',
+130 verbose headers   'transfer-encoding': 'chunked',
+130 verbose headers   connection: 'keep-alive',
+130 verbose headers   'cf-ray': '80da6e5f2abc27b7-LYS',
+130 verbose headers   'cf-cache-status': 'REVALIDATED',
+130 verbose headers   'access-control-allow-origin': '*',
+130 verbose headers   'cache-control': 'public, max-age=300',
+130 verbose headers   etag: 'W/"2d14be95693bbe2a7fed285f947f2cbf"',
+130 verbose headers   'last-modified': 'Mon, 20 Jun 2022 01:29:19 GMT',
+130 verbose headers   vary: 'accept-encoding, accept',
+130 verbose headers   server: 'cloudflare',
+130 verbose headers   'content-encoding': 'gzip' }
+131 silly get cb [ 200,
+131 silly get   { date: 'Thu, 28 Sep 2023 07:56:40 GMT',
+131 silly get     'content-type': 'application/json',
+131 silly get     'transfer-encoding': 'chunked',
+131 silly get     connection: 'keep-alive',
+131 silly get     'cf-ray': '80da6e5f2abc27b7-LYS',
+131 silly get     'cf-cache-status': 'REVALIDATED',
+131 silly get     'access-control-allow-origin': '*',
+131 silly get     'cache-control': 'public, max-age=300',
+131 silly get     etag: 'W/"2d14be95693bbe2a7fed285f947f2cbf"',
+131 silly get     'last-modified': 'Mon, 20 Jun 2022 01:29:19 GMT',
+131 silly get     vary: 'accept-encoding, accept',
+131 silly get     server: 'cloudflare',
+131 silly get     'content-encoding': 'gzip' } ]
+132 verbose get saving mocha-jsdom to /home/kelvin/.npm/registry.npmjs.org/mocha-jsdom/.cache.json
+133 silly resolveWithNewModule mocha-jsdom@1.1.0 checking installable status
+134 silly cache add args [ 'mocha-jsdom@~1.1.0', null ]
+135 verbose cache add spec mocha-jsdom@~1.1.0
+136 silly cache add parsed spec Result {
+136 silly cache add   raw: 'mocha-jsdom@~1.1.0',
+136 silly cache add   scope: null,
+136 silly cache add   name: 'mocha-jsdom',
+136 silly cache add   rawSpec: '~1.1.0',
+136 silly cache add   spec: '>=1.1.0 <1.2.0',
+136 silly cache add   type: 'range' }
+137 silly addNamed mocha-jsdom@>=1.1.0 <1.2.0
+138 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for mocha-jsdom
+139 silly addNameRange { name: 'mocha-jsdom', range: '>=1.1.0 <1.2.0', hasData: false }
+140 silly mapToRegistry name mocha-jsdom
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'mocha-jsdom',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   name: 'mocha-jsdom',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri https://registry.npmjs.org/mocha-jsdom
+145 verbose addNameRange registry:https://registry.npmjs.org/mocha-jsdom not in flight; fetching
+146 verbose get https://registry.npmjs.org/mocha-jsdom not expired, no request
+147 silly addNameRange number 2 { name: 'mocha-jsdom', range: '>=1.1.0 <1.2.0', hasData: true }
+148 silly addNameRange versions [ 'mocha-jsdom',
+148 silly addNameRange   [ '0.1.0',
+148 silly addNameRange     '0.1.1',
+148 silly addNameRange     '0.2.0',
+148 silly addNameRange     '0.2.1',
+148 silly addNameRange     '0.3.0',
+148 silly addNameRange     '0.4.0',
+148 silly addNameRange     '0.5.0',
+148 silly addNameRange     '1.0.0',
+148 silly addNameRange     '1.1.0',
+148 silly addNameRange     '1.2.0',
+148 silly addNameRange     '2.0.0' ] ]
+149 silly addNamed mocha-jsdom@1.1.0
+150 verbose addNamed "1.1.0" is a plain semver version for mocha-jsdom
+151 silly mapToRegistry name mocha-jsdom
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'mocha-jsdom',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   name: 'mocha-jsdom',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag' }
+155 silly mapToRegistry uri https://registry.npmjs.org/mocha-jsdom
+156 verbose addRemoteTarball https://registry.npmjs.org/mocha-jsdom/-/mocha-jsdom-1.1.0.tgz not in flight; adding
+157 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha-jsdom/-/mocha-jsdom-1.1.0.tgz',
+157 verbose addRemoteTarball   'e1576fbd0601cc89d358a213a0e5585d1b7c7a01' ]
+158 info retry fetch attempt 1 at 10:56:41
+159 info attempt registry request try #1 at 10:56:41
+160 http fetch GET https://registry.npmjs.org/mocha-jsdom/-/mocha-jsdom-1.1.0.tgz
+161 silly fetchAndShaCheck shasum c934ab542b11cc933a963617f0f890274c66c042
+162 verbose addTmpTarball /tmp/npm-32198-aac2257b/registry.npmjs.org/chai/-/chai-4.3.9.tgz not in flight; adding
+163 verbose addTmpTarball already have metadata; skipping unpack for chai@4.3.9
+164 silly cache afterAdd chai@4.3.9
+165 verbose afterAdd /home/kelvin/.npm/chai/4.3.9/package/package.json not in flight; writing
+166 verbose afterAdd /home/kelvin/.npm/chai/4.3.9/package/package.json written
+167 http 200 https://registry.npmjs.org/jsdom
+168 verbose headers { date: 'Thu, 28 Sep 2023 07:56:41 GMT',
+168 verbose headers   'content-type': 'application/json',
+168 verbose headers   'transfer-encoding': 'chunked',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'cf-ray': '80da6e5d4a994ed5-JNB',
+168 verbose headers   'cf-cache-status': 'REVALIDATED',
+168 verbose headers   'access-control-allow-origin': '*',
+168 verbose headers   'cache-control': 'public, max-age=300',
+168 verbose headers   etag: 'W/"b058e58c13629611a7e1837d6b24f60b"',
+168 verbose headers   'last-modified': 'Sat, 27 May 2023 10:19:21 GMT',
+168 verbose headers   vary: 'accept-encoding, accept',
+168 verbose headers   server: 'cloudflare',
+168 verbose headers   'content-encoding': 'gzip' }
+169 silly get cb [ 200,
+169 silly get   { date: 'Thu, 28 Sep 2023 07:56:41 GMT',
+169 silly get     'content-type': 'application/json',
+169 silly get     'transfer-encoding': 'chunked',
+169 silly get     connection: 'keep-alive',
+169 silly get     'cf-ray': '80da6e5d4a994ed5-JNB',
+169 silly get     'cf-cache-status': 'REVALIDATED',
+169 silly get     'access-control-allow-origin': '*',
+169 silly get     'cache-control': 'public, max-age=300',
+169 silly get     etag: 'W/"b058e58c13629611a7e1837d6b24f60b"',
+169 silly get     'last-modified': 'Sat, 27 May 2023 10:19:21 GMT',
+169 silly get     vary: 'accept-encoding, accept',
+169 silly get     server: 'cloudflare',
+169 silly get     'content-encoding': 'gzip' } ]
+170 verbose get saving jsdom to /home/kelvin/.npm/registry.npmjs.org/jsdom/.cache.json
+171 http 200 https://registry.npmjs.org/mocha-multi
+172 verbose headers { date: 'Thu, 28 Sep 2023 07:56:41 GMT',
+172 verbose headers   'content-type': 'application/json',
+172 verbose headers   'transfer-encoding': 'chunked',
+172 verbose headers   connection: 'keep-alive',
+172 verbose headers   'cf-ray': '80da6e5d4c224ece-JNB',
+172 verbose headers   'cf-cache-status': 'REVALIDATED',
+172 verbose headers   'access-control-allow-origin': '*',
+172 verbose headers   'cache-control': 'public, max-age=300',
+172 verbose headers   etag: 'W/"bc5d9844c808d52c7b51c5296c1f9bf5"',
+172 verbose headers   'last-modified': 'Tue, 15 Nov 2022 16:09:10 GMT',
+172 verbose headers   vary: 'accept-encoding, accept',
+172 verbose headers   server: 'cloudflare',
+172 verbose headers   'content-encoding': 'gzip' }
+173 silly get cb [ 200,
+173 silly get   { date: 'Thu, 28 Sep 2023 07:56:41 GMT',
+173 silly get     'content-type': 'application/json',
+173 silly get     'transfer-encoding': 'chunked',
+173 silly get     connection: 'keep-alive',
+173 silly get     'cf-ray': '80da6e5d4c224ece-JNB',
+173 silly get     'cf-cache-status': 'REVALIDATED',
+173 silly get     'access-control-allow-origin': '*',
+173 silly get     'cache-control': 'public, max-age=300',
+173 silly get     etag: 'W/"bc5d9844c808d52c7b51c5296c1f9bf5"',
+173 silly get     'last-modified': 'Tue, 15 Nov 2022 16:09:10 GMT',
+173 silly get     vary: 'accept-encoding, accept',
+173 silly get     server: 'cloudflare',
+173 silly get     'content-encoding': 'gzip' } ]
+174 verbose get saving mocha-multi to /home/kelvin/.npm/registry.npmjs.org/mocha-multi/.cache.json
+175 silly resolveWithNewModule jsdom@9.12.0 checking installable status
+176 silly cache add args [ 'jsdom@^9.0', null ]
+177 verbose cache add spec jsdom@^9.0
+178 silly cache add parsed spec Result {
+178 silly cache add   raw: 'jsdom@^9.0',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'jsdom',
+178 silly cache add   rawSpec: '^9.0',
+178 silly cache add   spec: '>=9.0.0 <10.0.0',
+178 silly cache add   type: 'range' }
+179 silly addNamed jsdom@>=9.0.0 <10.0.0
+180 verbose addNamed ">=9.0.0 <10.0.0" is a valid semver range for jsdom
+181 silly addNameRange { name: 'jsdom', range: '>=9.0.0 <10.0.0', hasData: false }
+182 silly mapToRegistry name jsdom
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'jsdom',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   name: 'jsdom',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npmjs.org/jsdom
+187 verbose addNameRange registry:https://registry.npmjs.org/jsdom not in flight; fetching
+188 http fetch 200 https://registry.npmjs.org/mocha-jsdom/-/mocha-jsdom-1.1.0.tgz
+189 silly resolveWithNewModule mocha-multi@1.1.7 checking installable status
+190 silly cache add args [ 'mocha-multi@^1.0.1', null ]
+191 verbose cache add spec mocha-multi@^1.0.1
+192 silly cache add parsed spec Result {
+192 silly cache add   raw: 'mocha-multi@^1.0.1',
+192 silly cache add   scope: null,
+192 silly cache add   name: 'mocha-multi',
+192 silly cache add   rawSpec: '^1.0.1',
+192 silly cache add   spec: '>=1.0.1 <2.0.0',
+192 silly cache add   type: 'range' }
+193 silly addNamed mocha-multi@>=1.0.1 <2.0.0
+194 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for mocha-multi
+195 silly addNameRange { name: 'mocha-multi', range: '>=1.0.1 <2.0.0', hasData: false }
+196 silly mapToRegistry name mocha-multi
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry data Result {
+199 silly mapToRegistry   raw: 'mocha-multi',
+199 silly mapToRegistry   scope: null,
+199 silly mapToRegistry   name: 'mocha-multi',
+199 silly mapToRegistry   rawSpec: '',
+199 silly mapToRegistry   spec: 'latest',
+199 silly mapToRegistry   type: 'tag' }
+200 silly mapToRegistry uri https://registry.npmjs.org/mocha-multi
+201 verbose addNameRange registry:https://registry.npmjs.org/mocha-multi not in flight; fetching
+202 silly fetchAndShaCheck shasum e1576fbd0601cc89d358a213a0e5585d1b7c7a01
+203 verbose get https://registry.npmjs.org/mocha-multi not expired, no request
+204 silly addNameRange number 2 { name: 'mocha-multi', range: '>=1.0.1 <2.0.0', hasData: true }
+205 silly addNameRange versions [ 'mocha-multi',
+205 silly addNameRange   [ '0.1.0',
+205 silly addNameRange     '0.2.0',
+205 silly addNameRange     '0.2.1',
+205 silly addNameRange     '0.3.0',
+205 silly addNameRange     '0.4.0',
+205 silly addNameRange     '0.4.1',
+205 silly addNameRange     '0.5.0',
+205 silly addNameRange     '0.6.0',
+205 silly addNameRange     '0.7.1',
+205 silly addNameRange     '0.7.2',
+205 silly addNameRange     '0.8.0',
+205 silly addNameRange     '0.9.0',
+205 silly addNameRange     '0.9.1',
+205 silly addNameRange     '0.10.0',
+205 silly addNameRange     '0.11.0',
+205 silly addNameRange     '0.11.1',
+205 silly addNameRange     '1.0.0',
+205 silly addNameRange     '1.0.1',
+205 silly addNameRange     '1.1.0',
+205 silly addNameRange     '1.1.1',
+205 silly addNameRange     '1.1.2',
+205 silly addNameRange     '1.1.3',
+205 silly addNameRange     '1.1.4',
+205 silly addNameRange     '1.1.5',
+205 silly addNameRange     '1.1.6',
+205 silly addNameRange     '1.1.7' ] ]
+206 silly addNamed mocha-multi@1.1.7
+207 verbose addNamed "1.1.7" is a plain semver version for mocha-multi
+208 silly mapToRegistry name mocha-multi
+209 silly mapToRegistry using default registry
+210 silly mapToRegistry registry https://registry.npmjs.org/
+211 silly mapToRegistry data Result {
+211 silly mapToRegistry   raw: 'mocha-multi',
+211 silly mapToRegistry   scope: null,
+211 silly mapToRegistry   name: 'mocha-multi',
+211 silly mapToRegistry   rawSpec: '',
+211 silly mapToRegistry   spec: 'latest',
+211 silly mapToRegistry   type: 'tag' }
+212 silly mapToRegistry uri https://registry.npmjs.org/mocha-multi
+213 verbose addRemoteTarball https://registry.npmjs.org/mocha-multi/-/mocha-multi-1.1.7.tgz not in flight; adding
+214 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha-multi/-/mocha-multi-1.1.7.tgz',
+214 verbose addRemoteTarball   '0f94d00c22ae39d20c253545d8eee0d2c4420205' ]
+215 verbose get https://registry.npmjs.org/jsdom not expired, no request
+216 silly addNameRange number 2 { name: 'jsdom', range: '>=9.0.0 <10.0.0', hasData: true }
+217 silly addNameRange versions [ 'jsdom',
+217 silly addNameRange   [ '0.0.1',
+217 silly addNameRange     '0.1.2',
+217 silly addNameRange     '0.1.4',
+217 silly addNameRange     '0.1.5',
+217 silly addNameRange     '0.1.6',
+217 silly addNameRange     '0.1.7',
+217 silly addNameRange     '0.1.8',
+217 silly addNameRange     '0.1.9',
+217 silly addNameRange     '0.1.10',
+217 silly addNameRange     '0.1.11',
+217 silly addNameRange     '0.1.12',
+217 silly addNameRange     '0.1.13',
+217 silly addNameRange     '0.1.15',
+217 silly addNameRange     '0.1.16',
+217 silly addNameRange     '0.1.17',
+217 silly addNameRange     '0.1.18',
+217 silly addNameRange     '0.1.19',
+217 silly addNameRange     '0.1.20',
+217 silly addNameRange     '0.1.21',
+217 silly addNameRange     '0.1.22',
+217 silly addNameRange     '0.1.23',
+217 silly addNameRange     '0.2.0',
+217 silly addNameRange     '0.2.1',
+217 silly addNameRange     '0.2.2',
+217 silly addNameRange     '0.2.3',
+217 silly addNameRange     '0.2.4',
+217 silly addNameRange     '0.2.5',
+217 silly addNameRange     '0.2.6',
+217 silly addNameRange     '0.2.7',
+217 silly addNameRange     '0.2.8',
+217 silly addNameRange     '0.2.9',
+217 silly addNameRange     '0.2.10',
+217 silly addNameRange     '0.2.11',
+217 silly addNameRange     '0.2.12',
+217 silly addNameRange     '0.2.13',
+217 silly addNameRange     '0.2.14',
+217 silly addNameRange     '0.2.15',
+217 silly addNameRange     '0.2.16',
+217 silly addNameRange     '0.2.17',
+217 silly addNameRange     '0.2.18',
+217 silly addNameRange     '0.2.19',
+217 silly addNameRange     '0.3.0',
+217 silly addNameRange     '0.3.1',
+217 silly addNameRange     '0.3.2',
+217 silly addNameRange     '0.3.3',
+217 silly addNameRange     '0.3.4',
+217 silly addNameRange     '0.4.0',
+217 silly addNameRange     '0.4.1',
+217 silly addNameRange     '0.4.2',
+217 silly addNameRange     '0.5.0',
+217 silly addNameRange     '0.5.1',
+217 silly addNameRange     '0.5.2',
+217 silly addNameRange     '0.5.3',
+217 silly addNameRange     '0.5.4',
+217 silly addNameRange     '0.5.5',
+217 silly addNameRange     '0.5.6',
+217 silly addNameRange     '0.5.7',
+217 silly addNameRange     '0.6.0',
+217 silly addNameRange     '0.6.1',
+217 silly addNameRange     '0.6.2',
+217 silly addNameRange     '0.6.3',
+217 silly addNameRange     '0.6.4',
+217 silly addNameRange     '0.6.5',
+217 silly addNameRange     '0.7.0',
+217 silly addNameRange     '0.8.0',
+217 silly addNameRange     '0.8.1',
+217 silly addNameRange     '0.8.2',
+217 silly addNameRange     '0.8.3',
+217 silly addNameRange     '0.8.4',
+217 silly addNameRange     '0.8.5',
+217 silly addNameRange     '0.8.6',
+217 silly addNameRange     '0.8.7',
+217 silly addNameRange     '0.8.8',
+217 silly addNameRange     '0.8.9',
+217 silly addNameRange     '0.8.10',
+217 silly addNameRange     '0.8.11',
+217 silly addNameRange     '0.9.0',
+217 silly addNameRange     '0.10.0',
+217 silly addNameRange     '0.10.1',
+217 silly addNameRange     '0.10.2',
+217 silly addNameRange     '0.10.3',
+217 silly addNameRange     '0.10.4',
+217 silly addNameRange     '0.10.5',
+217 silly addNameRange     '0.10.6',
+217 silly addNameRange     '0.11.0',
+217 silly addNameRange     '0.11.1',
+217 silly addNameRange     '1.0.0-pre.1',
+217 silly addNameRange     '1.0.0-pre.3',
+217 silly addNameRange     '1.0.0-pre.4',
+217 silly addNameRange     '1.0.0-pre.5',
+217 silly addNameRange     '1.0.0-pre.6',
+217 silly addNameRange     '1.0.0-pre.7',
+217 silly addNameRange     '1.0.0',
+217 silly addNameRange     '1.0.1',
+217 silly addNameRange     '1.0.2',
+217 silly addNameRange     '1.0.3',
+217 silly addNameRange     '1.1.0',
+217 silly addNameRange     '1.2.0',
+217 silly addNameRange     '1.2.1',
+217 silly addNameRange     '1.2.2',
+217 silly addNameRange     ... 153 more items ] ]
+218 silly addNamed jsdom@9.12.0
+219 verbose addNamed "9.12.0" is a plain semver version for jsdom
+220 silly mapToRegistry name jsdom
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry https://registry.npmjs.org/
+223 silly mapToRegistry data Result {
+223 silly mapToRegistry   raw: 'jsdom',
+223 silly mapToRegistry   scope: null,
+223 silly mapToRegistry   name: 'jsdom',
+223 silly mapToRegistry   rawSpec: '',
+223 silly mapToRegistry   spec: 'latest',
+223 silly mapToRegistry   type: 'tag' }
+224 silly mapToRegistry uri https://registry.npmjs.org/jsdom
+225 verbose addRemoteTarball https://registry.npmjs.org/jsdom/-/jsdom-9.12.0.tgz not in flight; adding
+226 verbose addRemoteTarball [ 'https://registry.npmjs.org/jsdom/-/jsdom-9.12.0.tgz',
+226 verbose addRemoteTarball   'e8c546fffcb06c00d4833ca84410fed7f8a097d4' ]
+227 verbose addTmpTarball /tmp/npm-32198-aac2257b/registry.npmjs.org/mocha-jsdom/-/mocha-jsdom-1.1.0.tgz not in flight; adding
+228 verbose addTmpTarball already have metadata; skipping unpack for mocha-jsdom@1.1.0
+229 info retry fetch attempt 1 at 10:56:41
+230 info attempt registry request try #1 at 10:56:41
+231 http fetch GET https://registry.npmjs.org/mocha-multi/-/mocha-multi-1.1.7.tgz
+232 info retry fetch attempt 1 at 10:56:41
+233 info attempt registry request try #1 at 10:56:41
+234 http fetch GET https://registry.npmjs.org/jsdom/-/jsdom-9.12.0.tgz
+235 silly cache afterAdd mocha-jsdom@1.1.0
+236 verbose afterAdd /home/kelvin/.npm/mocha-jsdom/1.1.0/package/package.json not in flight; writing
+237 verbose afterAdd /home/kelvin/.npm/mocha-jsdom/1.1.0/package/package.json written
+238 http fetch 200 https://registry.npmjs.org/jsdom/-/jsdom-9.12.0.tgz
+239 http fetch 200 https://registry.npmjs.org/mocha-multi/-/mocha-multi-1.1.7.tgz
+240 http 200 https://registry.npmjs.org/mocha
+241 verbose headers { date: 'Thu, 28 Sep 2023 07:56:41 GMT',
+241 verbose headers   'content-type': 'application/json',
+241 verbose headers   'transfer-encoding': 'chunked',
+241 verbose headers   connection: 'keep-alive',
+241 verbose headers   'cf-ray': '80da6e5d4d7b4ec9-JNB',
+241 verbose headers   'cf-cache-status': 'REVALIDATED',
+241 verbose headers   'access-control-allow-origin': '*',
+241 verbose headers   'cache-control': 'public, max-age=300',
+241 verbose headers   etag: 'W/"13dbacf9efbc215ed12d37c8e558d62e"',
+241 verbose headers   'last-modified': 'Fri, 22 Sep 2023 19:31:41 GMT',
+241 verbose headers   vary: 'accept-encoding, accept',
+241 verbose headers   server: 'cloudflare',
+241 verbose headers   'content-encoding': 'gzip' }
+242 silly get cb [ 200,
+242 silly get   { date: 'Thu, 28 Sep 2023 07:56:41 GMT',
+242 silly get     'content-type': 'application/json',
+242 silly get     'transfer-encoding': 'chunked',
+242 silly get     connection: 'keep-alive',
+242 silly get     'cf-ray': '80da6e5d4d7b4ec9-JNB',
+242 silly get     'cf-cache-status': 'REVALIDATED',
+242 silly get     'access-control-allow-origin': '*',
+242 silly get     'cache-control': 'public, max-age=300',
+242 silly get     etag: 'W/"13dbacf9efbc215ed12d37c8e558d62e"',
+242 silly get     'last-modified': 'Fri, 22 Sep 2023 19:31:41 GMT',
+242 silly get     vary: 'accept-encoding, accept',
+242 silly get     server: 'cloudflare',
+242 silly get     'content-encoding': 'gzip' } ]
+243 verbose get saving mocha to /home/kelvin/.npm/registry.npmjs.org/mocha/.cache.json
+244 silly fetchAndShaCheck shasum e8c546fffcb06c00d4833ca84410fed7f8a097d4
+245 verbose addTmpTarball /tmp/npm-32198-aac2257b/registry.npmjs.org/jsdom/-/jsdom-9.12.0.tgz not in flight; adding
+246 verbose addTmpTarball already have metadata; skipping unpack for jsdom@9.12.0
+247 silly resolveWithNewModule mocha@5.2.0 checking installable status
+248 silly cache add args [ 'mocha@^5.2.0', null ]
+249 verbose cache add spec mocha@^5.2.0
+250 silly cache add parsed spec Result {
+250 silly cache add   raw: 'mocha@^5.2.0',
+250 silly cache add   scope: null,
+250 silly cache add   name: 'mocha',
+250 silly cache add   rawSpec: '^5.2.0',
+250 silly cache add   spec: '>=5.2.0 <6.0.0',
+250 silly cache add   type: 'range' }
+251 silly addNamed mocha@>=5.2.0 <6.0.0
+252 verbose addNamed ">=5.2.0 <6.0.0" is a valid semver range for mocha
+253 silly addNameRange { name: 'mocha', range: '>=5.2.0 <6.0.0', hasData: false }
+254 silly mapToRegistry name mocha
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry data Result {
+257 silly mapToRegistry   raw: 'mocha',
+257 silly mapToRegistry   scope: null,
+257 silly mapToRegistry   name: 'mocha',
+257 silly mapToRegistry   rawSpec: '',
+257 silly mapToRegistry   spec: 'latest',
+257 silly mapToRegistry   type: 'tag' }
+258 silly mapToRegistry uri https://registry.npmjs.org/mocha
+259 verbose addNameRange registry:https://registry.npmjs.org/mocha not in flight; fetching
+260 verbose get https://registry.npmjs.org/mocha not expired, no request
+261 silly addNameRange number 2 { name: 'mocha', range: '>=5.2.0 <6.0.0', hasData: true }
+262 silly addNameRange versions [ 'mocha',
+262 silly addNameRange   [ '0.0.1-alpha1',
+262 silly addNameRange     '0.0.1-alpha2',
+262 silly addNameRange     '0.0.1-alpha3',
+262 silly addNameRange     '0.0.1-alpha4',
+262 silly addNameRange     '0.0.1-alpha5',
+262 silly addNameRange     '0.0.1-alpha6',
+262 silly addNameRange     '0.0.1',
+262 silly addNameRange     '0.0.2',
+262 silly addNameRange     '0.0.3',
+262 silly addNameRange     '0.0.4',
+262 silly addNameRange     '0.0.5',
+262 silly addNameRange     '0.0.6',
+262 silly addNameRange     '0.0.7',
+262 silly addNameRange     '0.0.8',
+262 silly addNameRange     '0.1.0',
+262 silly addNameRange     '0.2.0',
+262 silly addNameRange     '0.3.0',
+262 silly addNameRange     '0.3.1',
+262 silly addNameRange     '0.3.2',
+262 silly addNameRange     '0.3.3',
+262 silly addNameRange     '0.3.4',
+262 silly addNameRange     '0.3.6',
+262 silly addNameRange     '0.4.0',
+262 silly addNameRange     '0.5.0',
+262 silly addNameRange     '0.6.0',
+262 silly addNameRange     '0.7.0',
+262 silly addNameRange     '0.7.1',
+262 silly addNameRange     '0.8.0',
+262 silly addNameRange     '0.8.1',
+262 silly addNameRange     '0.9.0',
+262 silly addNameRange     '0.10.0',
+262 silly addNameRange     '0.10.1',
+262 silly addNameRange     '0.10.2',
+262 silly addNameRange     '0.11.0',
+262 silly addNameRange     '0.12.0',
+262 silly addNameRange     '0.12.1',
+262 silly addNameRange     '0.13.0',
+262 silly addNameRange     '0.14.0',
+262 silly addNameRange     '0.14.1',
+262 silly addNameRange     '1.0.0',
+262 silly addNameRange     '1.0.1',
+262 silly addNameRange     '1.0.2',
+262 silly addNameRange     '1.0.3',
+262 silly addNameRange     '1.1.0',
+262 silly addNameRange     '1.2.0',
+262 silly addNameRange     '1.2.1',
+262 silly addNameRange     '1.2.2',
+262 silly addNameRange     '1.3.0',
+262 silly addNameRange     '1.3.1',
+262 silly addNameRange     '1.3.2',
+262 silly addNameRange     '1.4.0',
+262 silly addNameRange     '1.4.1',
+262 silly addNameRange     '1.4.2',
+262 silly addNameRange     '1.4.3',
+262 silly addNameRange     '1.5.0',
+262 silly addNameRange     '1.6.0',
+262 silly addNameRange     '1.7.0',
+262 silly addNameRange     '1.7.1',
+262 silly addNameRange     '1.7.2',
+262 silly addNameRange     '1.7.3',
+262 silly addNameRange     '1.7.4',
+262 silly addNameRange     '1.8.0',
+262 silly addNameRange     '1.8.1',
+262 silly addNameRange     '1.8.2',
+262 silly addNameRange     '1.9.0',
+262 silly addNameRange     '1.10.0',
+262 silly addNameRange     '1.11.0',
+262 silly addNameRange     '1.12.0',
+262 silly addNameRange     '1.12.1',
+262 silly addNameRange     '1.13.0',
+262 silly addNameRange     '1.14.0',
+262 silly addNameRange     '1.15.0',
+262 silly addNameRange     '1.15.1',
+262 silly addNameRange     '1.16.0',
+262 silly addNameRange     '1.16.1',
+262 silly addNameRange     '1.16.2',
+262 silly addNameRange     '1.17.0',
+262 silly addNameRange     '1.17.1',
+262 silly addNameRange     '1.18.0',
+262 silly addNameRange     '1.18.1',
+262 silly addNameRange     '1.18.2',
+262 silly addNameRange     '1.19.0',
+262 silly addNameRange     '1.20.0',
+262 silly addNameRange     '1.20.1',
+262 silly addNameRange     '1.21.0',
+262 silly addNameRange     '1.21.1',
+262 silly addNameRange     '1.21.2',
+262 silly addNameRange     '1.21.3',
+262 silly addNameRange     '1.21.4',
+262 silly addNameRange     '1.21.5',
+262 silly addNameRange     '2.0.0',
+262 silly addNameRange     '2.0.1',
+262 silly addNameRange     '2.1.0',
+262 silly addNameRange     '2.2.0',
+262 silly addNameRange     '2.2.1',
+262 silly addNameRange     '2.2.3',
+262 silly addNameRange     '2.2.4',
+262 silly addNameRange     '2.2.5',
+262 silly addNameRange     '2.3.0',
+262 silly addNameRange     '2.3.1',
+262 silly addNameRange     ... 89 more items ] ]
+263 silly addNamed mocha@5.2.0
+264 verbose addNamed "5.2.0" is a plain semver version for mocha
+265 silly mapToRegistry name mocha
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry data Result {
+268 silly mapToRegistry   raw: 'mocha',
+268 silly mapToRegistry   scope: null,
+268 silly mapToRegistry   name: 'mocha',
+268 silly mapToRegistry   rawSpec: '',
+268 silly mapToRegistry   spec: 'latest',
+268 silly mapToRegistry   type: 'tag' }
+269 silly mapToRegistry uri https://registry.npmjs.org/mocha
+270 verbose addRemoteTarball https://registry.npmjs.org/mocha/-/mocha-5.2.0.tgz not in flight; adding
+271 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha/-/mocha-5.2.0.tgz',
+271 verbose addRemoteTarball   '6d8ae508f59167f940f2b5b3c4a612ae50c90ae6' ]
+272 info retry fetch attempt 1 at 10:56:43
+273 info attempt registry request try #1 at 10:56:43
+274 http fetch GET https://registry.npmjs.org/mocha/-/mocha-5.2.0.tgz
+275 silly cache afterAdd jsdom@9.12.0
+276 verbose afterAdd /home/kelvin/.npm/jsdom/9.12.0/package/package.json not in flight; writing
+277 verbose afterAdd /home/kelvin/.npm/jsdom/9.12.0/package/package.json written
+278 silly fetchAndShaCheck shasum 0f94d00c22ae39d20c253545d8eee0d2c4420205
+279 verbose addTmpTarball /tmp/npm-32198-aac2257b/registry.npmjs.org/mocha-multi/-/mocha-multi-1.1.7.tgz not in flight; adding
+280 verbose addTmpTarball already have metadata; skipping unpack for mocha-multi@1.1.7
+281 silly cache afterAdd mocha-multi@1.1.7
+282 verbose afterAdd /home/kelvin/.npm/mocha-multi/1.1.7/package/package.json not in flight; writing
+283 verbose afterAdd /home/kelvin/.npm/mocha-multi/1.1.7/package/package.json written
+284 http 200 https://registry.npmjs.org/@babel%2fcore
+285 verbose headers { date: 'Thu, 28 Sep 2023 07:56:42 GMT',
+285 verbose headers   'content-type': 'application/json',
+285 verbose headers   'transfer-encoding': 'chunked',
+285 verbose headers   connection: 'keep-alive',
+285 verbose headers   'cf-ray': '80da6e5d182e0536-JNB',
+285 verbose headers   'cf-cache-status': 'REVALIDATED',
+285 verbose headers   'access-control-allow-origin': '*',
+285 verbose headers   'cache-control': 'public, max-age=300',
+285 verbose headers   etag: 'W/"3b7c0c4eef468fde9900037d12efa621"',
+285 verbose headers   'last-modified': 'Tue, 26 Sep 2023 14:57:44 GMT',
+285 verbose headers   vary: 'accept-encoding, accept',
+285 verbose headers   server: 'cloudflare',
+285 verbose headers   'content-encoding': 'gzip' }
+286 silly get cb [ 200,
+286 silly get   { date: 'Thu, 28 Sep 2023 07:56:42 GMT',
+286 silly get     'content-type': 'application/json',
+286 silly get     'transfer-encoding': 'chunked',
+286 silly get     connection: 'keep-alive',
+286 silly get     'cf-ray': '80da6e5d182e0536-JNB',
+286 silly get     'cf-cache-status': 'REVALIDATED',
+286 silly get     'access-control-allow-origin': '*',
+286 silly get     'cache-control': 'public, max-age=300',
+286 silly get     etag: 'W/"3b7c0c4eef468fde9900037d12efa621"',
+286 silly get     'last-modified': 'Tue, 26 Sep 2023 14:57:44 GMT',
+286 silly get     vary: 'accept-encoding, accept',
+286 silly get     server: 'cloudflare',
+286 silly get     'content-encoding': 'gzip' } ]
+287 verbose get saving @babel/core to /home/kelvin/.npm/registry.npmjs.org/_40babel_252fcore/.cache.json
+288 verbose stack Error: Missing required argument #1
+288 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+288 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+288 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+288 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+288 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+288 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+288 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+288 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+288 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+288 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+289 verbose cwd /home/kelvin/Development/code/Phase-1/phase-1-domcontentloaded
+290 error Linux 5.4.0-150-generic
+291 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+292 error node v8.10.0
+293 error npm  v3.5.2
+294 error code EMISSINGARG
+295 error typeerror Error: Missing required argument #1
+295 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+295 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+295 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+295 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+295 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+295 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+295 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+295 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+295 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+295 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+296 error typeerror This is an error with npm itself. Please report this error at:
+296 error typeerror     <http://github.com/npm/npm/issues>
+297 verbose exit [ 1, true ]
